@@ -4,7 +4,7 @@ This example send an sms to a defined number each time the Arduino boot
 
 */
 
-#include <M590.h> 
+#include <m590.h> 
 
 char phonenumber[] = "\"06xxxxxxxx\""; // phone number the sms will be send.
 char smscontent[] = "M590 GSM Module Test by HyDz"
